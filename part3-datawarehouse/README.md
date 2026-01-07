@@ -833,7 +833,7 @@ Password: ****
 
 For questions about this component:
 
-**Email:** [Your Email]  
+**Email:** singhkhushburajesh@gmail.com  
 **Project:** FlexiMart Data Architecture  
 **Component:** Part 3 - Data Warehouse & Analytics
 
