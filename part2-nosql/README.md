@@ -728,7 +728,7 @@ db.products.createIndex({ category: 1 });
 
 For questions about this component:
 
-**Email:** [Your Email]  
+**Email:** singhkhushburajesh@gmail.com  
 **Project:** FlexiMart Data Architecture  
 **Component:** Part 2 - NoSQL Analysis
 
