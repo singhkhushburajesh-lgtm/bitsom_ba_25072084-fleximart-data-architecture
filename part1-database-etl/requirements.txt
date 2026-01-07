@@ -1,0 +1,23 @@
+# FlexiMart ETL Pipeline - Python Dependencies
+# Part 1: Database Design & ETL
+# Install with: pip install -r requirements.txt
+
+# Data manipulation and analysis
+pandas==2.1.4
+
+# MySQL database connectivity
+mysql-connector-python==8.2.0
+
+# Alternative: PyMySQL (uncomment if you prefer this driver)
+# PyMySQL==1.1.0
+
+# Date parsing utilities (pandas includes this, but explicit for clarity)
+python-dateutil==2.8.2
+
+# For PostgreSQL support (uncomment if using PostgreSQL instead of MySQL)
+# psycopg2-binary==2.9.9
+
+# Additional useful libraries (optional but recommended)
+# numpy==1.26.2              # Numerical operations (pandas dependency)
+# openpyxl==3.1.2            # If you need to read Excel files
+# xlrd==2.0.1                # If you need to read old Excel formats (.xls)

@@ -1,0 +1,82 @@
+======================================================================
+FLEXIMART ETL PIPELINE - DATA QUALITY REPORT
+======================================================================
+Generated: 2026-01-06 14:30:45
+
+
+CUSTOMERS DATASET
+----------------------------------------------------------------------
+Records in raw file:              26
+Duplicate records removed:        1
+Missing values handled:           5
+Records loaded successfully:      20
+Data quality score:               76.92%
+
+
+PRODUCTS DATASET
+----------------------------------------------------------------------
+Records in raw file:              20
+Duplicate records removed:        0
+Missing values handled:           4
+Records loaded successfully:      17
+Data quality score:               85.00%
+
+
+SALES DATASET
+----------------------------------------------------------------------
+Records in raw file:              40
+Duplicate records removed:        1
+Missing values handled:           5
+Records loaded successfully:      34
+Data quality score:               85.00%
+
+======================================================================
+OVERALL SUMMARY
+======================================================================
+Total records processed:          86
+Total records loaded:             71
+Overall success rate:             82.56%
+======================================================================
+
+
+DETAILED TRANSFORMATION NOTES:
+----------------------------------------------------------------------
+
+CUSTOMERS:
+- Removed 1 duplicate record (C001 appeared twice)
+- Dropped 5 records with missing emails (C003, C007, C012, C018, C023)
+- Standardized all phone numbers to +91-XXXXXXXXXX format
+- Standardized all city names to Title Case
+- Converted all dates to YYYY-MM-DD format
+
+PRODUCTS:
+- No duplicate records found
+- Dropped 3 records with missing prices (P003, P010, P017)
+- Filled 1 missing stock quantity with default value 0 (P006)
+- Standardized all category names to Title Case
+- Removed extra whitespace from product names
+
+SALES:
+- Removed 1 duplicate transaction (T001 appeared twice)
+- Dropped 3 records with missing customer_id (T004, T016, T030)
+- Dropped 2 records with missing product_id (T008, T025)
+- Converted all dates to YYYY-MM-DD format
+- Calculated subtotal for each transaction line item
+- Mapped old IDs to new auto-generated database IDs
+
+DATA INTEGRITY CHECKS PASSED:
+✓ All foreign key relationships maintained
+✓ No orphaned records in order_items table
+✓ All required fields populated
+✓ Date formats standardized
+✓ Phone numbers standardized
+✓ Category names standardized
+✓ No duplicate records in final dataset
+
+RECOMMENDATIONS:
+1. Implement data validation at source to prevent missing emails
+2. Add phone number validation during data entry
+3. Standardize date format input (prefer YYYY-MM-DD)
+4. Implement unique transaction ID generation at source
+5. Add real-time duplicate detection during data capture
+======================================================================
