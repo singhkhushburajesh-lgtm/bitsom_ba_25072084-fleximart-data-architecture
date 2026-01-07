@@ -557,7 +557,7 @@ For detailed schema documentation including ER descriptions, functional dependen
 
 For questions about this component:
 
-**Email:** [Your Email]  
+**Email:** singhkhushburajesh@gmail.com  
 **Project:** FlexiMart Data Architecture  
 **Component:** Part 1 - Database & ETL
 
