@@ -229,7 +229,7 @@ The orders table includes a status field with a default value of 'Pending', enab
 
 ## 7. Potential Extensions
 
-Future schema enhancements could include:
+Future Schema Enhancements Could Include:
 - **categories table:** Separate table for product categories with hierarchical structure
 - **addresses table:** Multiple shipping/billing addresses per customer
 - **payments table:** Track payment methods and transaction details
