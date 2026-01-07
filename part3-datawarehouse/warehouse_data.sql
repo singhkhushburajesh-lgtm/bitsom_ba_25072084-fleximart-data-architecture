@@ -15,7 +15,7 @@ TRUNCATE TABLE dim_product;
 TRUNCATE TABLE dim_date;
 SET FOREIGN_KEY_CHECKS = 1;
 
--- ============================================================================
+-- ===========================================================================
 -- DIMENSION TABLE: dim_date
 -- Requirement: 30 dates (January-February 2024) including weekends
 -- ============================================================================
