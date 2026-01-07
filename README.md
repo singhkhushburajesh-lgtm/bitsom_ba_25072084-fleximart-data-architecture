@@ -193,4 +193,4 @@ For any questions or clarifications about this project:
 
 **License:** This project is for educational purposes as part of database coursework.
 
-**Acknowledgments:** Dataset and problem statement provided by the Database Systems course instructor.
+**Acknowledgments:** Dataset and Problem statement provided by the Database Systems course instructor.
