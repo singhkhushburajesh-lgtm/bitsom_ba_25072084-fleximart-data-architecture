@@ -477,7 +477,7 @@ class FlexiMartETL:
             self.close_connection()
 
 
-# ==================== MAIN EXECUTION ====================
+# ==================== MAIN EXECUTION ===================
 
 if __name__ == "__main__":
     # Database configuration - UPDATE THESE WITH YOUR DATABASE CREDENTIALS
