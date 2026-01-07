@@ -3,7 +3,6 @@ FlexiMart ETL Pipeline
 This script extracts data from CSV files, transforms it by cleaning data quality issues,
 and loads it into a MySQL/PostgreSQL database.
 
-Author: Data Engineering Team
 Date: January 2026
 """
 
