@@ -9,7 +9,7 @@ DROP DATABASE IF EXISTS fleximart_dw;
 CREATE DATABASE fleximart_dw;
 USE fleximart_dw;
 
--- ============================================================================
+-- ===========================================================================
 -- DIMENSION TABLE: dim_date
 -- Purpose: Time dimension for temporal analysis
 -- ============================================================================
